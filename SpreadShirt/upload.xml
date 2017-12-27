@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<design xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://api.spreadshirt.net" weight="0.0" xlink:href="http://api.spreadshirt.net/api/v1/shops/40000/designs/u100001143" id="u100001143">
+    <name>Super cool design</name>
+    <description>A super cool design</description>
+    <user xlink:href="http://api.spreadshirt.net/api/v1/users/37508" id="37508"/>
+    <restrictions>
+        <fixedColors>false</fixedColors>
+        <ownText>true</ownText>
+ 
+        <obligatory>true</obligatory>
+        <movable>true</movable>
+        <targetView>0</targetView>
+        <minimumScale>100</minimumScale>
+        <visible>true</visible>
+        <inverted>false</inverted>
+ 
+    </restrictions>
+    <size unit="px">
+        <width>1016.0</width>
+        <height>895.0</height>
+    </size>
+    <colors/>
+    <printTypes>
+        <printType xlink:href="http://api.spreadshirt.net/api/v1/shops/40000/printTypes/1" id="1"/>
+        <printType xlink:href="http://api.spreadshirt.net/api/v1/shops/40000/printTypes/19" id="19"/>
+        <printType xlink:href="http://api.spreadshirt.net/api/v1/shops/40000/printTypes/17" id="17"/>
+        <printType xlink:href="http://api.spreadshirt.net/api/v1/shops/40000/printTypes/10" id="10"/>
+        <printType xlink:href="http://api.spreadshirt.net/api/v1/shops/40000/printTypes/21" id="21"/>
+    </printTypes>
+    <designCategories/>
+    <price>
+        <vatExcluded>0.00</vatExcluded>
+ 
+        <vatIncluded>0</vatIncluded>
+        <vat>19.00</vat>
+        <currency xlink:href="http://api.spreadshirt.net/api/v1/currencies/1" id="1"/>
+    </price>
+    <resources>
+        <resource xlink:href="http://image.spreadshirt.net/image-server/v1/designs/100001143" type="preview" mediaType="png"/>
+<!-- upload url !!! -->
+        <resource xlink:href="http://image.spreadshirt.net/image-server/v1/designs/100001143" type="montage" mediaType="png"/>
+    </resources>
+    <created>2010-08-02T08:29:59Z</created>
+  <modified>2010-07-30T15:17:15Z</modified>
+</design>

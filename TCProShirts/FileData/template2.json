@@ -1,0 +1,192 @@
+{
+  "poster": {
+    "designId": "@DesignID",
+    "entityId": "@EntityID",
+    "printSize": "poster-standard",
+    "id": "@TimeSpanID-36710",
+    "sides": {
+      "front": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "C",
+            "offset": 0
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": 0
+          }
+        },
+        "size": {
+          "width": 0.85,
+          "unit": "percentage"
+        }
+      }
+    },
+    "handling": "default"
+  },
+  "case": {
+    "designId": "@DesignID",
+    "entityId": "@EntityID",
+    "printSize": "case-standard",
+    "id": "@TimeSpanID-38916",
+    "sides": {
+      "front": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "C",
+            "offset": -0.002962962962962945
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": -0.00666666666666671
+          }
+        },
+        "size": {
+          "width": 0.46020776295794047,
+          "unit": "percentage"
+        }
+      }
+    },
+    "handling": "default"
+  },
+  "general_slim": {
+    "designId": "@DesignID",
+    "entityId": "@EntityID",
+    "printSize": "general-slim",
+    "id": "@TimeSpanID-7838",
+    "sides": {
+      "right": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "T",
+            "offset": 0
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": 0
+          }
+        },
+        "size": {
+          "width": 4,
+          "unit": "inch"
+        }
+      },
+      "left": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "T",
+            "offset": 0
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": 0
+          }
+        },
+        "size": {
+          "width": 4,
+          "unit": "inch"
+        }
+      }
+    },
+    "handling": "default"
+  },
+  "mug": {
+    "designId": "@DesignID",
+    "entityId": "@EntityID",
+    "printSize": "mug-standard",
+    "id": "@TimeSpanID-67858",
+    "sides": {
+      "front": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "C",
+            "offset": 0
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": -0.019047619047619035
+          }
+        },
+        "size": {
+          "width": 0.9307932069690922,
+          "unit": "percentage"
+        }
+      }
+    },
+    "handling": "default"
+  },
+  "general": {
+    "designId": "@DesignID",
+    "entityId": "@EntityID",
+    "printSize": "general-standard",
+    "id": "@TimeSpanID-75642",
+    "sides": {
+      "front": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "T",
+            "offset": 2
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": 0
+          }
+        },
+        "size": {
+          "width": 14,
+          "unit": "inch"
+        }
+      },
+      "back": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "T",
+            "offset": 2
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": 0
+          }
+        },
+        "size": {
+          "width": 14,
+          "unit": "inch"
+        }
+      }
+    },
+    "handling": "default"
+  },
+  "hat": {
+    "designId": "@DesignID",
+    "entityId": "@EntityID",
+    "printSize": "hat-standard",
+    "id": "@TimeSpanID-21944",
+    "sides": {
+      "front": {
+        "artworkId": "@ArtworkID",
+        "position": {
+          "vertical": {
+            "origin": "T",
+            "offset": 0
+          },
+          "horizontal": {
+            "origin": "C",
+            "offset": 0
+          }
+        },
+        "size": {
+          "width": 2.8083610329838917,
+          "unit": "inch"
+        }
+      }
+    },
+    "handling": "default"
+  }
+}

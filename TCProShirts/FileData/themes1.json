@@ -1,0 +1,139 @@
+[
+  {
+    "designLineId": "",
+    "productId": "",
+    "color": "",
+    "price": "",
+    "images": [ ]
+  }
+]
+
+//general-standard
+//{
+//  "designId": "5a25322ff5988725e36d6f59",
+//  "entityId": "5a20b5737d321f6a62a50229",
+//  "printSize": "general-standard",
+//  "id": "1512386660260-53892",
+//  "sides": {
+//    "front": {
+//      "artworkId": "5a22674857cf410cb93a1e0d",
+//      "position": {
+//        "vertical": {
+//          "origin": "T",
+//          "offset": 2
+//        },
+//        "horizontal": {
+//          "origin": "C",
+//          "offset": 0
+//        }
+//      },
+//      "size": {
+//        "width": 14,
+//        "unit": "inch"
+//      }
+//    },
+//    "back": {
+//      "artworkId": "5a22674857cf410cb93a1e0d",
+//      "position": {
+//        "vertical": {
+//          "origin": "T",
+//          "offset": 2
+//        },
+//        "horizontal": {
+//          "origin": "C",
+//          "offset": 0
+//        }
+//      },
+//      "size": {
+//        "width": 14,
+//        "unit": "inch"
+//      }
+//    }
+//  },
+//  "handling": "default"
+//}
+
+//MUG-standard
+
+//{
+//  "designId": "5a25322ff5988725e36d6f59",
+//  "entityId": "5a20b5737d321f6a62a50229",
+//  "printSize": "mug-standard",
+//  "id": "1512386713421-68566",
+//  "sides": {
+//    "front": {
+//      "artworkId": "5a22674857cf410cb93a1e0d",
+//      "position": {
+//        "vertical": {
+//          "origin": "C",
+//          "offset": -0.0038961038961038974
+//        },
+//        "horizontal": {
+//          "origin": "C",
+//          "offset": -0.019047619047619035
+//        }
+//      },
+//      "size": {
+//        "width": 0.8919119417776301,
+//        "unit": "percentage"
+//      }
+//    }
+//  },
+//  "handling": "default"
+//}
+
+//case-standard
+//{
+//  "designId": "5a25322ff5988725e36d6f59",
+//  "entityId": "5a20b5737d321f6a62a50229",
+//  "printSize": "case-standard",
+//  "id": "1512386699998-56406",
+//  "sides": {
+//    "front": {
+//      "artworkId": "5a22674857cf410cb93a1e0d",
+//      "position": {
+//        "vertical": {
+//          "origin": "C",
+//          "offset": 0
+//        },
+//        "horizontal": {
+//          "origin": "C",
+//          "offset": 0
+//        }
+//      },
+//      "size": {
+//        "width": 0.46830741728627123,
+//        "unit": "percentage"
+//      }
+//    }
+//  },
+//  "handling": "default"
+//}
+
+//poster-standard
+//{
+//  "designId": "5a25322ff5988725e36d6f59",
+//  "entityId": "5a20b5737d321f6a62a50229",
+//  "printSize": "poster-standard",
+//  "id": "1512386730622-69216",
+//  "sides": {
+//    "front": {
+//      "artworkId": "5a22674857cf410cb93a1e0d",
+//      "position": {
+//        "vertical": {
+//          "origin": "C",
+//          "offset": 0
+//        },
+//        "horizontal": {
+//          "origin": "C",
+//          "offset": 0
+//        }
+//      },
+//      "size": {
+//        "width": 0.85,
+//        "unit": "percentage"
+//      }
+//    }
+//  },
+//  "handling": "default"
+//}

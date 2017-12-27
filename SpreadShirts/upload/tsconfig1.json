@@ -1,0 +1,3905 @@
+﻿{
+  "commission": {
+    "amount": 11,
+    "currencyId": "3"
+  },
+  "publishingDetails": [
+    {
+      "id": "55c864cc64c7436b464aeb7b",
+      "pointOfSale": {
+        "id": "55c864cc64c7436b464aeb7b",
+        "type": "MARKETPLACE",
+        "target": { "id": "93439" },
+        "allowed": true
+      }
+    },
+    {
+      "id": "5a090b48f6c60d32df359aac",
+      "pointOfSale": {
+        "id": "5a090b48f6c60d32df359aac",
+        "name": "ShopVIP",
+        "type": "SHOP",
+        "target": {
+          "id": "100232216",
+          "currencyId": "3"
+        },
+        "allowed": true
+      },
+      "commission": {
+        "amount": 0,
+        "currencyId": "3"
+      }
+    }
+  ],
+  "properties": {
+    "manualAssortmentSelection": true,
+    "configuration": "1510630010988"
+  },
+  "id": "5a0a5c17aa0c6d5484aef460",
+  "userId": "302719724",
+  "state": "ACTIVE",
+  "mainDesignId": "1013521844",
+  "translations": [
+    {
+      "name": "2 PT011117",
+      "description": "hoanádfákdjf",
+      "tags": [ "ádlfkjádf", "ádfọiádò", "áodịaádò", "ádfjádfkjádf", "a", "LeCongHoang" ],
+      "locale": "en_US",
+      "autotranslated": false
+    }
+  ],
+  "dateCreated": "2017-11-14T02:59:35.372Z",
+  "dateModified": 1510630010988,
+  "legalStates": [
+    {
+      "pointOfSaleType": "CYO",
+      "publishingAllowed": true
+    },
+    {
+      "pointOfSaleType": "SHOP",
+      "publishingAllowed": true
+    },
+    {
+      "pointOfSaleType": "MARKETPLACE",
+      "publishingAllowed": true
+    }
+  ],
+  "flags": [ "SAFE0" ],
+  "resources": [
+    {
+      "type": "default",
+      "href": "https://image.spreadshirtmedia.com/image-server/v1/products/1030510935/views/1"
+    },
+    {
+      "type": "list-preview",
+      "href": "https://image.spreadshirtmedia.com/image-server/v1/designs/1013521844"
+    }
+  ],
+  "assortment": {
+    "filterId": "root",
+    "name": "Partner",
+    "included": true,
+    "available": true,
+    "subFilters": {
+      "2": {
+        "filterId": "2",
+        "name": "Men",
+        "shortName": "Men",
+        "included": true,
+        "available": true,
+        "primarySellable": {
+          "id": "nOQgar5mvJtNDL1dD9Ej-5QT10",
+          "productType": "812",
+          "vpKey": "T812A317PA1663PT17X49Y59D1013521844S29",
+          "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T812A317PA1663PT17X49Y59D1013521844S29/views/1",
+          "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/812/views/1/appearances/317",
+          "assortmentGroupIds": [ "2" ],
+          "weight": 0,
+          "viewId": "1"
+        },
+        "assortmentSize": 26,
+        "reductionFilters": [ ],
+        "subFilters": {
+          "7": {
+            "filterId": "7",
+            "name": "Men’s T-Shirts",
+            "shortName": "T-Shirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "nOQgXpyyVNH2jnVNLX3v-5QT10",
+              "productType": "812",
+              "vpKey": "T812A317PA1663PT17X49Y58D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T812A317PA1663PT17X49Y58D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/812/views/1/appearances/317",
+              "assortmentGroupIds": [ "7" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 12,
+            "reductionFilters": [
+              {
+                "name": "Bestsellers",
+                "id": "46",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T812A317PA1663PT17X49Y58D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "645",
+                        "weight": 149,
+                        "distance": 0
+                      },
+                      {
+                        "id": "339",
+                        "weight": 173,
+                        "distance": 0
+                      },
+                      {
+                        "id": "648",
+                        "weight": 216,
+                        "distance": 0
+                      },
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "red",
+                    "rgb": "CE312D",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "366",
+                        "weight": 114,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yellow",
+                    "rgb": "FFF000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "39",
+                        "weight": 155,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "green",
+                    "rgb": "00AC00",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "92",
+                        "weight": 132,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "brown",
+                    "rgb": "5B3C28",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "387",
+                        "weight": 111,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "348",
+                        "weight": 199,
+                        "distance": 0
+                      },
+                      {
+                        "id": "317",
+                        "weight": 122,
+                        "distance": 0
+                      },
+                      {
+                        "id": "328",
+                        "weight": 215,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "purple",
+                    "rgb": "89539B",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "506",
+                        "weight": 329,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Trends",
+                "id": "49",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T1197A557PA2551PT17X36Y30D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "33",
+                        "weight": 118,
+                        "distance": 0
+                      },
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "228",
+                        "weight": 244,
+                        "distance": 0
+                      },
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "557",
+                        "weight": 1000,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Organic",
+                "id": "50",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T460A4PA1112PT17X81Y65D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "4",
+                        "weight": 213,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Sports",
+                "id": "52",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T953A258PA2014PT17X23Y29D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "33",
+                        "weight": 118,
+                        "distance": 0
+                      },
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yellow",
+                    "rgb": "FFF000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "413",
+                        "weight": 102,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "258",
+                        "weight": 113,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              }
+            ],
+            "orderWeight": 7,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 10.99,
+                  "productTypeId": "210"
+                },
+                "MAX": {
+                  "amount": 22.99,
+                  "productTypeId": "121"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "645",
+                    "weight": 149,
+                    "distance": 0
+                  },
+                  {
+                    "id": "339",
+                    "weight": 173,
+                    "distance": 0
+                  },
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "yellow",
+                "rgb": "FFF000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "39",
+                    "weight": 155,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "green",
+                "rgb": "00AC00",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "92",
+                    "weight": 132,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "brown",
+                "rgb": "5B3C28",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "387",
+                    "weight": 111,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  },
+                  {
+                    "id": "317",
+                    "weight": 122,
+                    "distance": 0
+                  },
+                  {
+                    "id": "328",
+                    "weight": 215,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "purple",
+                "rgb": "89539B",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "506",
+                    "weight": 329,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "12": {
+            "filterId": "12",
+            "name": "Men‘s V-Neck T-Shirt",
+            "shortName": "V-Neck Shirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "qrZg0wBBVDi9vEYgJGdn-eETMq",
+              "productType": "686",
+              "vpKey": "T686A17PA1450PT17X59Y58D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T686A17PA1450PT17X59Y58D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/686/views/1/appearances/17",
+              "assortmentGroupIds": [ "12" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 1,
+            "reductionFilters": [ ],
+            "orderWeight": 12,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 21.99,
+                  "productTypeId": "686"
+                },
+                "MAX": {
+                  "amount": 21.99,
+                  "productTypeId": "686"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "164",
+                    "weight": 233,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "17",
+                    "weight": 64,
+                    "distance": 0
+                  },
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  },
+                  {
+                    "id": "229",
+                    "weight": 169,
+                    "distance": 0
+                  },
+                  {
+                    "id": "693",
+                    "weight": 145,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "15": {
+            "filterId": "15",
+            "name": "Men’s Tank Tops",
+            "shortName": "Tank Tops",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "74QOEeJJV7Hl5dJzjeQ5-l4TGj",
+              "productType": "916",
+              "vpKey": "T916A348PA1901PT17X23Y43D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T916A348PA1901PT17X23Y43D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/916/views/1/appearances/348",
+              "assortmentGroupIds": [ "15" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 15,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 16.99,
+                  "productTypeId": "98"
+                },
+                "MAX": {
+                  "amount": 17.99,
+                  "productTypeId": "916"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "339",
+                    "weight": 173,
+                    "distance": 0
+                  },
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "18": {
+            "filterId": "18",
+            "name": "Men’s Long Sleeve Shirts",
+            "shortName": "Long Sleeve Shirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "kaqg1dRReOTA5GmNrgbb-zmTyG",
+              "productType": "875",
+              "vpKey": "T875A348PA1863PT17X44Y51D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T875A348PA1863PT17X44Y51D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/875/views/1/appearances/348",
+              "assortmentGroupIds": [ "18" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 5,
+            "reductionFilters": [
+              {
+                "name": "Bestsellers",
+                "id": "46",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T875A348PA1863PT17X44Y51D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "339",
+                        "weight": 173,
+                        "distance": 0
+                      },
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "348",
+                        "weight": 199,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Trends",
+                "id": "49",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T174A231PA259PT17X56Y62D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              }
+            ],
+            "orderWeight": 18,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 16.99,
+                  "productTypeId": "23"
+                },
+                "MAX": {
+                  "amount": 23.99,
+                  "productTypeId": "174"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "339",
+                    "weight": 173,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "22": {
+            "filterId": "22",
+            "name": "Men’s Hoodies",
+            "shortName": "Hoodies",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "JkAYBDwwZgIbgkGp9YDY-0jT0",
+              "productType": "20",
+              "vpKey": "T20A647PA18PT17X61Y3D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T20A647PA18PT17X61Y3D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/20/views/1/appearances/647",
+              "assortmentGroupIds": [ "22" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [
+              {
+                "name": "Bestsellers",
+                "id": "46",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T20A647PA18PT17X61Y3D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "648",
+                        "weight": 216,
+                        "distance": 0
+                      },
+                      {
+                        "id": "251",
+                        "weight": 125,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "red",
+                    "rgb": "CE312D",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "5",
+                        "weight": 77,
+                        "distance": 0
+                      },
+                      {
+                        "id": "22",
+                        "weight": 305,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "647",
+                        "weight": 161,
+                        "distance": 0
+                      },
+                      {
+                        "id": "4",
+                        "weight": 213,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Trends",
+                "id": "49",
+                "selected": false,
+                "available": false
+              },
+              {
+                "name": "Organic",
+                "id": "50",
+                "selected": false,
+                "available": false
+              }
+            ],
+            "orderWeight": 22,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 26.99,
+                  "productTypeId": "111"
+                },
+                "MAX": {
+                  "amount": 34.99,
+                  "productTypeId": "20"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  },
+                  {
+                    "id": "251",
+                    "weight": 125,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "5",
+                    "weight": 77,
+                    "distance": 0
+                  },
+                  {
+                    "id": "22",
+                    "weight": 305,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "647",
+                    "weight": 161,
+                    "distance": 0
+                  },
+                  {
+                    "id": "4",
+                    "weight": 213,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "26": {
+            "filterId": "26",
+            "name": "Men’s Sweatshirts",
+            "shortName": "Sweatshirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "R4mzwMoo5GHBMXdAm9Qz-l4Tvg",
+              "productType": "512",
+              "vpKey": "T512A258PA986PT17X46Y45D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T512A258PA986PT17X46Y45D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/512/views/1/appearances/258",
+              "assortmentGroupIds": [ "26" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 1,
+            "reductionFilters": [ ],
+            "orderWeight": 26,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 24.99,
+                  "productTypeId": "512"
+                },
+                "MAX": {
+                  "amount": 24.99,
+                  "productTypeId": "512"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "339",
+                    "weight": 173,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "5",
+                    "weight": 77,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "258",
+                    "weight": 113,
+                    "distance": 0
+                  },
+                  {
+                    "id": "4",
+                    "weight": 213,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "purple",
+                "rgb": "89539B",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "134",
+                    "weight": 362,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "29": {
+            "filterId": "29",
+            "name": "Men’s Jackets",
+            "shortName": "Jackets",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "8ydMEeJJoZiqXbLrAkaD-meTLO",
+              "productType": "198",
+              "vpKey": "T198A4PA343PT17X43Y100D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T198A4PA343PT17X43Y100D1013521844S29/views/2",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/198/views/2/appearances/4",
+              "assortmentGroupIds": [ "29" ],
+              "weight": 0,
+              "viewId": "2"
+            },
+            "assortmentSize": 3,
+            "reductionFilters": [ ],
+            "orderWeight": 29,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 25.99,
+                  "productTypeId": "1048"
+                },
+                "MAX": {
+                  "amount": 41.99,
+                  "productTypeId": "669"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "4",
+                    "weight": 213,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "orderWeight": 2,
+        "basePrices": {
+          "currencyId": "3",
+          "printPrice": 4.5,
+          "range": {
+            "MIN": {
+              "amount": 10.99,
+              "productTypeId": "210"
+            },
+            "MAX": {
+              "amount": 41.99,
+              "productTypeId": "669"
+            }
+          }
+        }
+      },
+      "3": {
+        "filterId": "3",
+        "name": "Women",
+        "shortName": "Women",
+        "included": true,
+        "available": true,
+        "primarySellable": {
+          "id": "nOQgar5mvJtNDL1dD9Ej-bETDm",
+          "productType": "813",
+          "vpKey": "T813A317PA1667PT17X26Y57D1013521844S29",
+          "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T813A317PA1667PT17X26Y57D1013521844S29/views/1",
+          "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/813/views/1/appearances/317",
+          "assortmentGroupIds": [ "3" ],
+          "weight": 0,
+          "viewId": "1"
+        },
+        "assortmentSize": 27,
+        "reductionFilters": [ ],
+        "subFilters": {
+          "8": {
+            "filterId": "8",
+            "name": "Women’s T-Shirts",
+            "shortName": "T-Shirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "LneXY7DD1rClyV923LB4-bETDm",
+              "productType": "813",
+              "vpKey": "T813A317PA1667PT17X26Y56D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T813A317PA1667PT17X26Y56D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/813/views/1/appearances/317",
+              "assortmentGroupIds": [ "8" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 11,
+            "reductionFilters": [
+              {
+                "name": "Bestsellers",
+                "id": "46",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T813A317PA1667PT17X26Y56D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "645",
+                        "weight": 149,
+                        "distance": 0
+                      },
+                      {
+                        "id": "339",
+                        "weight": 173,
+                        "distance": 0
+                      },
+                      {
+                        "id": "648",
+                        "weight": 216,
+                        "distance": 0
+                      },
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "red",
+                    "rgb": "CE312D",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "507",
+                        "weight": 198,
+                        "distance": 0
+                      },
+                      {
+                        "id": "366",
+                        "weight": 114,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yellow",
+                    "rgb": "FFF000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "39",
+                        "weight": 155,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "green",
+                    "rgb": "00AC00",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "92",
+                        "weight": 132,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "348",
+                        "weight": 199,
+                        "distance": 0
+                      },
+                      {
+                        "id": "317",
+                        "weight": 122,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "purple",
+                    "rgb": "89539B",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "676",
+                        "weight": 1000,
+                        "distance": 0
+                      },
+                      {
+                        "id": "506",
+                        "weight": 329,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pink",
+                    "rgb": "FF98A9",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "386",
+                        "weight": 136,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Trends",
+                "id": "49",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T943A557PA1939PT17X41Y16D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "231",
+                        "weight": 157,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "red",
+                    "rgb": "CE312D",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "566",
+                        "weight": 238,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "228",
+                        "weight": 244,
+                        "distance": 0
+                      },
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "557",
+                        "weight": 1000,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Organic",
+                "id": "50",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T461A1PA1086PT17X38Y69D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "white",
+                    "rgb": "FFFFFF",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "1",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Sports",
+                "id": "52",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T954A258PA2022PT17X19Y38D1013521844S29/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "33",
+                        "weight": 118,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "258",
+                        "weight": 113,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pink",
+                    "rgb": "FF98A9",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "412",
+                        "weight": 128,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              }
+            ],
+            "orderWeight": 8,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 10.99,
+                  "productTypeId": "347"
+                },
+                "MAX": {
+                  "amount": 22.99,
+                  "productTypeId": "1172"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "645",
+                    "weight": 149,
+                    "distance": 0
+                  },
+                  {
+                    "id": "339",
+                    "weight": 173,
+                    "distance": 0
+                  },
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "507",
+                    "weight": 198,
+                    "distance": 0
+                  },
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "yellow",
+                "rgb": "FFF000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "39",
+                    "weight": 155,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "green",
+                "rgb": "00AC00",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "92",
+                    "weight": 132,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  },
+                  {
+                    "id": "317",
+                    "weight": 122,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "purple",
+                "rgb": "89539B",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "676",
+                    "weight": 1000,
+                    "distance": 0
+                  },
+                  {
+                    "id": "506",
+                    "weight": 329,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "pink",
+                "rgb": "FF98A9",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "386",
+                    "weight": 136,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "13": {
+            "filterId": "13",
+            "name": "Women‘s V-Neck T-Shirt",
+            "shortName": "V-Neck Shirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "m4mrkp88VxHRp4ArLwdn-N3TLA",
+              "productType": "1038",
+              "vpKey": "T1038A710PA2248PT17X27Y63D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T1038A710PA2248PT17X27Y63D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/1038/views/1/appearances/710",
+              "assortmentGroupIds": [ "13" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 13,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 19.99,
+                  "productTypeId": "348"
+                },
+                "MAX": {
+                  "amount": 20.99,
+                  "productTypeId": "1038"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "purple",
+              "rgb": "89539B",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "164",
+                    "weight": 233,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "565",
+                    "weight": 110,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "cyan",
+                "rgb": "27BBBC",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "595",
+                    "weight": 167,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "purple",
+                "rgb": "89539B",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "710",
+                    "weight": 179,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "pink",
+                "rgb": "FF98A9",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "596",
+                    "weight": 281,
+                    "distance": 0
+                  },
+                  {
+                    "id": "597",
+                    "weight": 202,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "16": {
+            "filterId": "16",
+            "name": "Women’s Tank Tops",
+            "shortName": "Tank Tops",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "Bq3lbJXX5acnGkYMZwba-qETBq",
+              "productType": "917",
+              "vpKey": "T917A348PA1903PT17X20Y107D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T917A348PA1903PT17X20Y107D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/917/views/1/appearances/348",
+              "assortmentGroupIds": [ "16" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 4,
+            "reductionFilters": [ ],
+            "orderWeight": 16,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 16.99,
+                  "productTypeId": "469"
+                },
+                "MAX": {
+                  "amount": 19.99,
+                  "productTypeId": "746"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "339",
+                    "weight": 173,
+                    "distance": 0
+                  },
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  },
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "507",
+                    "weight": 198,
+                    "distance": 0
+                  },
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "purple",
+                "rgb": "89539B",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "676",
+                    "weight": 1000,
+                    "distance": 0
+                  },
+                  {
+                    "id": "506",
+                    "weight": 329,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "19": {
+            "filterId": "19",
+            "name": "Women’s Long Sleeve Shirts",
+            "shortName": "Long Sleeve Shirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "XyQgx5YYpviLjeQgY5My-4nT7J",
+              "productType": "876",
+              "vpKey": "T876A348PA1867PT17X14Y40D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T876A348PA1867PT17X14Y40D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/876/views/1/appearances/348",
+              "assortmentGroupIds": [ "19" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 5,
+            "reductionFilters": [ ],
+            "orderWeight": 19,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 16.99,
+                  "productTypeId": "345"
+                },
+                "MAX": {
+                  "amount": 35.99,
+                  "productTypeId": "681"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "507",
+                    "weight": 198,
+                    "distance": 0
+                  },
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "23": {
+            "filterId": "23",
+            "name": "Women’s Hoodies",
+            "shortName": "Hoodies",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "2LQ0eAxxzvie28kOLZzG-VoTQJ",
+              "productType": "444",
+              "vpKey": "T444A647PA801PT17X48Y0D1013521844S24",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T444A647PA801PT17X48Y0D1013521844S24/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/444/views/1/appearances/647",
+              "assortmentGroupIds": [ "23" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [
+              {
+                "name": "Bestsellers",
+                "id": "46",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T444A647PA801PT17X48Y0D1013521844S24/views/1",
+                "availableColors": [
+                  {
+                    "id": "grey",
+                    "rgb": "999999",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "648",
+                        "weight": 216,
+                        "distance": 0
+                      },
+                      {
+                        "id": "251",
+                        "weight": 125,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "red",
+                    "rgb": "CE312D",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "22",
+                        "weight": 305,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "647",
+                        "weight": 161,
+                        "distance": 0
+                      },
+                      {
+                        "id": "4",
+                        "weight": 213,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Trends",
+                "id": "49",
+                "selected": false,
+                "available": false
+              },
+              {
+                "name": "Organic",
+                "id": "50",
+                "selected": false,
+                "available": false
+              }
+            ],
+            "orderWeight": 23,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 26.99,
+                  "productTypeId": "405"
+                },
+                "MAX": {
+                  "amount": 30.99,
+                  "productTypeId": "444"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  },
+                  {
+                    "id": "251",
+                    "weight": 125,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "22",
+                    "weight": 305,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "647",
+                    "weight": 161,
+                    "distance": 0
+                  },
+                  {
+                    "id": "4",
+                    "weight": 213,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "27": {
+            "filterId": "27",
+            "name": "Women’s Sweatshirts",
+            "shortName": "Sweatshirts",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "92XyEejjzBCVg95kZlzd-DoTD2",
+              "productType": "681",
+              "vpKey": "T681A450PA1422PT17X54Y134D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T681A450PA1422PT17X54Y134D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/681/views/1/appearances/450",
+              "assortmentGroupIds": [ "27" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 27,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 24.99,
+                  "productTypeId": "512"
+                },
+                "MAX": {
+                  "amount": 35.99,
+                  "productTypeId": "681"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "164",
+                    "weight": 233,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "228",
+                    "weight": 244,
+                    "distance": 0
+                  },
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "458",
+                    "weight": 311,
+                    "distance": 0
+                  },
+                  {
+                    "id": "450",
+                    "weight": 244,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "30": {
+            "filterId": "30",
+            "name": "Women’s Jackets",
+            "shortName": "Jackets",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "5aqzEeJJNmTxkvybLGNY-owTv4",
+              "productType": "1048",
+              "vpKey": "T1048A229PA2306PT17X23Y40D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T1048A229PA2306PT17X23Y40D1013521844S29/views/2",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/1048/views/2/appearances/229",
+              "assortmentGroupIds": [ "30" ],
+              "weight": 0,
+              "viewId": "2"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 30,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 25.99,
+                  "productTypeId": "1048"
+                },
+                "MAX": {
+                  "amount": 41.99,
+                  "productTypeId": "669"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "229",
+                    "weight": 169,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "orderWeight": 3,
+        "basePrices": {
+          "currencyId": "3",
+          "printPrice": 4.5,
+          "range": {
+            "MIN": {
+              "amount": 10.99,
+              "productTypeId": "347"
+            },
+            "MAX": {
+              "amount": 41.99,
+              "productTypeId": "669"
+            }
+          }
+        }
+      },
+      "4": {
+        "filterId": "4",
+        "name": "Kids",
+        "shortName": "Kids",
+        "included": true,
+        "available": true,
+        "hints": [ "ADULT_CONTENT_NOT_ALLOWED" ],
+        "primarySellable": {
+          "id": "nOQgar5mvJtNDL1dD9Ej-l4TDL",
+          "productType": "815",
+          "vpKey": "T815A317PA1659PT17X40Y49D1013521844S29",
+          "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T815A317PA1659PT17X40Y49D1013521844S29/views/1",
+          "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/815/views/1/appearances/317",
+          "assortmentGroupIds": [ "4" ],
+          "weight": 0,
+          "viewId": "1"
+        },
+        "assortmentSize": 7,
+        "reductionFilters": [ ],
+        "subFilters": {
+          "9": {
+            "filterId": "9",
+            "name": "Kids’ T-Shirts",
+            "shortName": "T-Shirts",
+            "included": true,
+            "available": true,
+            "hints": [ "ADULT_CONTENT_NOT_ALLOWED" ],
+            "primarySellable": {
+              "id": "0XNnQAggz5CGnXBbDNeB-l4TDL",
+              "productType": "815",
+              "vpKey": "T815A317PA1659PT17X40Y48D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T815A317PA1659PT17X40Y48D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/815/views/1/appearances/317",
+              "assortmentGroupIds": [ "9" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 3,
+            "reductionFilters": [ ],
+            "orderWeight": 9,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 10.99,
+                  "productTypeId": "48"
+                },
+                "MAX": {
+                  "amount": 13.99,
+                  "productTypeId": "815"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "507",
+                    "weight": 198,
+                    "distance": 0
+                  },
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "yellow",
+                "rgb": "FFF000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "39",
+                    "weight": 155,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "green",
+                "rgb": "00AC00",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "92",
+                    "weight": 132,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  },
+                  {
+                    "id": "317",
+                    "weight": 122,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "purple",
+                "rgb": "89539B",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "506",
+                    "weight": 329,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "20": {
+            "filterId": "20",
+            "name": "Kids’ Long Sleeve Shirts",
+            "shortName": "Long Sleeve Shirts",
+            "included": true,
+            "available": true,
+            "hints": [ "ADULT_CONTENT_NOT_ALLOWED" ],
+            "primarySellable": {
+              "id": "zrxb3wzzV9i7vDmjVlJB-MaTXp",
+              "productType": "878",
+              "vpKey": "T878A348PA1875PT17X33Y65D1013521844S19",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T878A348PA1875PT17X33Y65D1013521844S19/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/878/views/1/appearances/348",
+              "assortmentGroupIds": [ "20" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 20,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 13.99,
+                  "productTypeId": "486"
+                },
+                "MAX": {
+                  "amount": 15.99,
+                  "productTypeId": "878"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "231",
+                    "weight": 157,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "348",
+                    "weight": 199,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "24": {
+            "filterId": "24",
+            "name": "Kids’ Hoodies",
+            "shortName": "Hoodies",
+            "included": true,
+            "available": true,
+            "hints": [ "ADULT_CONTENT_NOT_ALLOWED" ],
+            "primarySellable": {
+              "id": "GBaypewwmxC9NpmY25BV-5QTae",
+              "productType": "654",
+              "vpKey": "T654A418PA1338PT17X62Y0D1013521844S17",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T654A418PA1338PT17X62Y0D1013521844S17/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/654/views/1/appearances/418",
+              "assortmentGroupIds": [ "24" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 24,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 17.99,
+                  "productTypeId": "654"
+                },
+                "MAX": {
+                  "amount": 20.99,
+                  "productTypeId": "499"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "648",
+                    "weight": 216,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "421",
+                    "weight": 70,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "418",
+                    "weight": 89,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "orderWeight": 4,
+        "basePrices": {
+          "currencyId": "3",
+          "printPrice": 4.5,
+          "range": {
+            "MIN": {
+              "amount": 10.99,
+              "productTypeId": "48"
+            },
+            "MAX": {
+              "amount": 20.99,
+              "productTypeId": "499"
+            }
+          }
+        }
+      },
+      "5": {
+        "filterId": "5",
+        "name": "Babies",
+        "shortName": "Babies",
+        "included": true,
+        "available": true,
+        "primarySellable": {
+          "id": "nOQgar5mvJtNDL1dD9Ej-p7TrB",
+          "productType": "401",
+          "vpKey": "T401A63PA642PT17X25Y32D1013521844S15",
+          "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T401A63PA642PT17X25Y32D1013521844S15/views/1",
+          "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/401/views/1/appearances/63",
+          "assortmentGroupIds": [ "5" ],
+          "weight": 0,
+          "viewId": "1"
+        },
+        "assortmentSize": 4,
+        "reductionFilters": [ ],
+        "subFilters": {
+          "10": {
+            "filterId": "10",
+            "name": "Baby T-Shirts",
+            "shortName": "T-Shirts",
+            "included": true,
+            "available": true,
+            "hints": [ "ADULT_CONTENT_NOT_ALLOWED" ],
+            "primarySellable": {
+              "id": "bBogbZ00akCmMvGg4xd9-p7TrB",
+              "productType": "401",
+              "vpKey": "T401A63PA642PT17X25Y32D1013521844S15",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T401A63PA642PT17X25Y32D1013521844S15/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/401/views/1/appearances/63",
+              "assortmentGroupIds": [ "10" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 10,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 11.99,
+                  "productTypeId": "375"
+                },
+                "MAX": {
+                  "amount": 15.99,
+                  "productTypeId": "401"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "cyan",
+              "rgb": "27BBBC",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "5",
+                    "weight": 77,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "beige",
+                "rgb": "DECD96",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "390",
+                    "weight": 1000,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "yellow",
+                "rgb": "FFF000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "114",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "18",
+                    "weight": 122,
+                    "distance": 0
+                  },
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "cyan",
+                "rgb": "27BBBC",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "63",
+                    "weight": 215,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "orderWeight": 5,
+        "basePrices": {
+          "currencyId": "3",
+          "printPrice": 4.5,
+          "range": {
+            "MIN": {
+              "amount": 10.99,
+              "productTypeId": "1094"
+            },
+            "MAX": {
+              "amount": 15.99,
+              "productTypeId": "401"
+            }
+          }
+        }
+      },
+      "31": {
+        "filterId": "31",
+        "name": "Accessories",
+        "shortName": "Accessories",
+        "included": true,
+        "available": true,
+        "primarySellable": {
+          "id": "nOQgar5mvJtNDL1dD9Ej-d7T47",
+          "productType": "842",
+          "vpKey": "T842A359PA1776PT17X45Y0D1013521844S28",
+          "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T842A359PA1776PT17X45Y0D1013521844S28/views/1",
+          "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/842/views/1/appearances/359",
+          "assortmentGroupIds": [ "31" ],
+          "weight": 0,
+          "viewId": "1"
+        },
+        "assortmentSize": 32,
+        "reductionFilters": [ ],
+        "subFilters": {
+          "32": {
+            "filterId": "32",
+            "name": "Mugs",
+            "shortName": "Mugs",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "vrkROEzzVeilXdVk7Ae3-DoTY",
+              "productType": "31",
+              "vpKey": "T31A1PA29PT10X9Y0D1013521844S19",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T31A1PA29PT10X9Y0D1013521844S19/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/31/views/1/appearances/1",
+              "assortmentGroupIds": [ "32" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 3,
+            "reductionFilters": [ ],
+            "orderWeight": 32,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 3,
+              "range": {
+                "MIN": {
+                  "amount": 8.99,
+                  "productTypeId": "31"
+                },
+                "MAX": {
+                  "amount": 11.99,
+                  "productTypeId": "949"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "white",
+              "rgb": "FFFFFF",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "33": {
+            "filterId": "33",
+            "name": "Bags",
+            "shortName": "Bags",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "lzBgYE99QMfpaENgyZo4-d7T47",
+              "productType": "842",
+              "vpKey": "T842A359PA1776PT17X45Y0D1013521844S27",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T842A359PA1776PT17X45Y0D1013521844S27/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/842/views/1/appearances/359",
+              "assortmentGroupIds": [ "33" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 5,
+            "reductionFilters": [
+              {
+                "name": "Trends",
+                "id": "49",
+                "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T842A359PA1776PT17X45Y0D1013521844S27/views/1",
+                "availableColors": [
+                  {
+                    "id": "red",
+                    "rgb": "CE312D",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "196",
+                        "weight": 68,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "black",
+                    "rgb": "000000",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "2",
+                        "weight": 0,
+                        "distance": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blue",
+                    "rgb": "1F40AD",
+                    "name": "",
+                    "appearanceIds": [
+                      {
+                        "id": "359",
+                        "weight": 110,
+                        "distance": 0
+                      }
+                    ]
+                  }
+                ],
+                "selected": true,
+                "available": true
+              },
+              {
+                "name": "Sports",
+                "id": "52",
+                "selected": false,
+                "available": false
+              }
+            ],
+            "orderWeight": 33,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 10.99,
+                  "productTypeId": "842"
+                },
+                "MAX": {
+                  "amount": 13.99,
+                  "productTypeId": "378"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "196",
+                    "weight": 68,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "359",
+                    "weight": 110,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "34": {
+            "filterId": "34",
+            "name": "Caps",
+            "shortName": "Caps",
+            "included": false,
+            "available": false,
+            "hints": [ "NO_PRINTABLE_FOUND" ],
+            "assortmentSize": 3,
+            "reductionFilters": [ ],
+            "orderWeight": 34
+          },
+          "35": {
+            "filterId": "35",
+            "name": "Aprons",
+            "shortName": "Aprons",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "prxALpmmVgiRNQYAb7JQ-DoTdn",
+              "productType": "1186",
+              "vpKey": "T1186A359PA2537PT17X31Y0D1013521844S18",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T1186A359PA2537PT17X31Y0D1013521844S18/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/1186/views/1/appearances/359",
+              "assortmentGroupIds": [ "35" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 1,
+            "reductionFilters": [ ],
+            "orderWeight": 35,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 16.99,
+                  "productTypeId": "1186"
+                },
+                "MAX": {
+                  "amount": 16.99,
+                  "productTypeId": "1186"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "blue",
+              "rgb": "1F40AD",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "33",
+                    "weight": 118,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "red",
+                "rgb": "CE312D",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "366",
+                    "weight": 114,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "blue",
+                "rgb": "1F40AD",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "359",
+                    "weight": 110,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "36": {
+            "filterId": "36",
+            "name": "Hats",
+            "shortName": "Hats",
+            "included": false,
+            "available": false,
+            "hints": [ "NO_PRINTABLE_FOUND" ],
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 36
+          },
+          "37": {
+            "filterId": "37",
+            "name": "Pillow Cases",
+            "shortName": "Pillow Cases",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "ZbVg3vXXZqS1wkRgl5al-bETNw",
+              "productType": "914",
+              "vpKey": "T914A1PA1898PT17X31Y0D1013521844S27",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T914A1PA1898PT17X31Y0D1013521844S27/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/914/views/1/appearances/1",
+              "assortmentGroupIds": [ "37" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 1,
+            "reductionFilters": [ ],
+            "orderWeight": 37,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 16.99,
+                  "productTypeId": "914"
+                },
+                "MAX": {
+                  "amount": 16.99,
+                  "productTypeId": "914"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "white",
+              "rgb": "FFFFFF",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "38": {
+            "filterId": "38",
+            "name": "iPhone Cases",
+            "shortName": "iPhone Cases",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "1nmLEAoogbCwAlJQLNMk-GvTR8",
+              "productType": "1010",
+              "vpKey": "T1010A70PA2188PT10X6Y36D1013521844S23",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T1010A70PA2188PT10X6Y36D1013521844S23/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/1010/views/1/appearances/70",
+              "assortmentGroupIds": [ "38" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 6,
+            "reductionFilters": [ ],
+            "orderWeight": 38,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 3,
+              "range": {
+                "MIN": {
+                  "amount": 3.99,
+                  "productTypeId": "822"
+                },
+                "MAX": {
+                  "amount": 13.99,
+                  "productTypeId": "1010"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "white",
+              "rgb": "FFFFFF",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "70",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "39": {
+            "filterId": "39",
+            "name": "To Go Drinkware",
+            "shortName": "To Go Drinkware",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "Y5VgNyvv7lId0XmNyOk3-vLTyr",
+              "productType": "757",
+              "vpKey": "T757A37PA1578PT10X11Y0D1013521844S21",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T757A37PA1578PT10X11Y0D1013521844S21/views/3",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/757/views/3/appearances/37",
+              "assortmentGroupIds": [ "39" ],
+              "weight": 0,
+              "viewId": "3"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 39,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 3,
+              "range": {
+                "MIN": {
+                  "amount": 13.99,
+                  "productTypeId": "757"
+                },
+                "MAX": {
+                  "amount": 15.99,
+                  "productTypeId": "773"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "grey",
+              "rgb": "999999",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "grey",
+                "rgb": "999999",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "37",
+                    "weight": 113,
+                    "distance": 0
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "40": {
+            "filterId": "40",
+            "name": "Buttons",
+            "shortName": "Buttons",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "wQv9Mw44V2iqxyVZAne2-MaTej",
+              "productType": "127",
+              "vpKey": "T127A1PA215PT21X9Y7D1013521844S6",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T127A1PA215PT21X9Y7D1013521844S6/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/127/views/1/appearances/1",
+              "assortmentGroupIds": [ "40" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 2,
+            "reductionFilters": [ ],
+            "orderWeight": 40,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 3,
+              "range": {
+                "MIN": {
+                  "amount": 4.99,
+                  "productTypeId": "127"
+                },
+                "MAX": {
+                  "amount": 6.99,
+                  "productTypeId": "125"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "white",
+              "rgb": "FFFFFF",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "41": {
+            "filterId": "41",
+            "name": "Bandanas",
+            "shortName": "Bandanas",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "aZ0g5MqqkYfQlGnN32jv-bETYB",
+              "productType": "611",
+              "vpKey": "T611A2PA1245PT17X30Y0D1013521844S29",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T611A2PA1245PT17X30Y0D1013521844S29/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/611/views/1/appearances/2",
+              "assortmentGroupIds": [ "41" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 1,
+            "reductionFilters": [ ],
+            "orderWeight": 41,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 4.5,
+              "range": {
+                "MIN": {
+                  "amount": 9.99,
+                  "productTypeId": "611"
+                },
+                "MAX": {
+                  "amount": 9.99,
+                  "productTypeId": "611"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "black",
+              "rgb": "000000",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "black",
+                "rgb": "000000",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "2",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "43": {
+            "filterId": "43",
+            "name": "Mouse Pads",
+            "shortName": "Mouse Pads",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "4weaEAJJDqSMQDegbloE-VoTzq",
+              "productType": "993",
+              "vpKey": "T993A1PA2168PT10X79Y51D1013521844S40",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T993A1PA2168PT10X79Y51D1013521844S40/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/993/views/1/appearances/1",
+              "assortmentGroupIds": [ "43" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 1,
+            "reductionFilters": [ ],
+            "orderWeight": 43,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 3,
+              "range": {
+                "MIN": {
+                  "amount": 8.99,
+                  "productTypeId": "993"
+                },
+                "MAX": {
+                  "amount": 8.99,
+                  "productTypeId": "993"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "white",
+              "rgb": "FFFFFF",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "1",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "44": {
+            "filterId": "44",
+            "name": "Samsung Cases",
+            "shortName": "Samsung Cases",
+            "included": true,
+            "available": true,
+            "primarySellable": {
+              "id": "yra5NwzzVRipkEyzQwxG-bET5M",
+              "productType": "1059",
+              "vpKey": "T1059A70PA2302PT10X6Y37D1013521844S24",
+              "defaultImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/products/T1059A70PA2302PT10X6Y37D1013521844S24/views/1",
+              "productTypeImageUrl": "https://image.spreadshirtmedia.com/image-server/v1/productTypes/1059/views/1/appearances/70",
+              "assortmentGroupIds": [ "44" ],
+              "weight": 0,
+              "viewId": "1"
+            },
+            "assortmentSize": 5,
+            "reductionFilters": [ ],
+            "orderWeight": 44,
+            "basePrices": {
+              "currencyId": "3",
+              "printPrice": 3,
+              "range": {
+                "MIN": {
+                  "amount": 3.99,
+                  "productTypeId": "1059"
+                },
+                "MAX": {
+                  "amount": 13.99,
+                  "productTypeId": "1145"
+                }
+              }
+            },
+            "baseColor": {
+              "id": "white",
+              "rgb": "FFFFFF",
+              "name": ""
+            },
+            "availableColors": [
+              {
+                "id": "white",
+                "rgb": "FFFFFF",
+                "name": "",
+                "appearanceIds": [
+                  {
+                    "id": "70",
+                    "weight": 0,
+                    "distance": 0
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "orderWeight": 31,
+        "basePrices": {
+          "currencyId": "3",
+          "printPrice": 4.5,
+          "range": {
+            "MIN": {
+              "amount": 3.99,
+              "productTypeId": "1059"
+            },
+            "MAX": {
+              "amount": 21.99,
+              "productTypeId": "636"
+            }
+          }
+        }
+      }
+    },
+    "orderWeight": 0,
+    "route": "assortment",
+    "reqParams": {
+      "mediaType": "json",
+      "locale": "us_US",
+      "prices": true,
+      "reductions": true,
+      "apiKey": "1c711bf5-b82d-40de-bea6-435b5473cf9b",
+      "sig": "886e85ccc428906b00a23b803de18232ffc8fe89",
+      "time": 1510629988891
+    },
+    "restangularized": true,
+    "fromServer": true,
+    "parentResource": {
+      "route": "ideas",
+      "parentResource": {
+        "route": "current",
+        "parentResource": {
+          "route": "users",
+          "parentResource": null
+        },
+        "id": "302719724",
+        "href": "https://partner.spreadshirt.com/api/v1/users/302719724"
+      },
+      "id": "5a0a5c17aa0c6d5484aef460",
+      "href": "https://partner.spreadshirt.com/api/v1/users/302719724/ideas/5a0a5c17aa0c6d5484aef460"
+    },
+    "restangularCollection": false
+  },
+  "backgroundColor": "#666666"
+}
