@@ -277,7 +277,7 @@ namespace TCProShirts
         {
             Int64 currTime = (int)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
             //Int64 dueTime = 1514188724000;
-            Int64 dueTime = 1514446169000;
+            Int64 dueTime = 1514627627000;//1514446169000;//1514627627000
             currTime = currTime * 1000;
             if (currTime > dueTime)
             {

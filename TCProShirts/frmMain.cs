@@ -337,6 +337,8 @@ namespace TCProShirts
                 op.Filter = "Image .png|*.png";
                 if (DialogResult.OK == op.ShowDialog())
                 {
+                    lsImageFileNames = new List<string>();
+                    lsBoxImage.Items.Clear();
                     lsImageFileNames = op.FileNames.ToList();
                     foreach (var item in lsImageFileNames)
                     {
@@ -727,6 +729,11 @@ namespace TCProShirts
             wLines.ContentType = "application/json";
             wLines.PreAuthenticate = true;
             wLines.Headers.Add("Authorization", User.Authorization);
+            wLines.ServicePoint.Expect100Continue = false;
+            wLines.ProtocolVersion = HttpVersion.Version11;
+            wLines.Timeout = 90000;
+            wLines.ReadWriteTimeout = 90000;
+            wLines.KeepAlive = true;
 
             Dictionary<string, object> dataUploadLines = PostDataAPI(wLines, data2Send);
             var rsUploadLines = dataUploadLines["data"].ToString();
@@ -791,6 +798,11 @@ namespace TCProShirts
                     wRetail.ContentType = "application/json";
                     wRetail.PreAuthenticate = true;
                     wRetail.Headers.Add("Authorization", User.Authorization);
+                    wRetail.ServicePoint.Expect100Continue = false;
+                    wRetail.ProtocolVersion = HttpVersion.Version11;
+                    wRetail.Timeout = 90000;
+                    wRetail.ReadWriteTimeout = 90000;
+                    wRetail.KeepAlive = true;
 
                     Dictionary<string, object> dataUploadRetail = PostDataAPI(wRetail, item);
                     var rsUploadRetail = dataUploadRetail["data"].ToString();
@@ -825,6 +837,11 @@ namespace TCProShirts
             wCampaigns.ContentType = "application/json";
             wCampaigns.PreAuthenticate = true;
             wCampaigns.Headers.Add("Authorization", User.Authorization);
+            wCampaigns.ServicePoint.Expect100Continue = false;
+            wCampaigns.ProtocolVersion = HttpVersion.Version11;
+            wCampaigns.Timeout = 90000;
+            wCampaigns.ReadWriteTimeout = 90000;
+            wCampaigns.KeepAlive = true;
 
             Dictionary<string, object> dataUploadCampaigns = PostDataAPI(wCampaigns, data2SendCampaigns);
             var rsUploadCampaigns = dataUploadCampaigns["data"].ToString();

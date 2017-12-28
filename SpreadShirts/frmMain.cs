@@ -349,6 +349,11 @@ namespace SpreadShirts
                     wRequestUpload.ContentType = "application/json;charset=utf-8";
                     wRequestUpload.Referer = "https://partner.spreadshirt.com/designs/" + ideaId;
                     wRequestUpload.CookieContainer = cookieApplication;
+                    wRequestUpload.ServicePoint.Expect100Continue = false;
+                    wRequestUpload.ProtocolVersion = HttpVersion.Version11;
+                    wRequestUpload.Timeout = 90000;
+                    wRequestUpload.ReadWriteTimeout = 90000;
+                    wRequestUpload.KeepAlive = true;
 
                     Dictionary<string, object> step2Upload = PutDataAPI(wRequestUpload, rs_Data2Send);
                     if (int.Parse(step2Upload["status"].ToString()) == -1)
