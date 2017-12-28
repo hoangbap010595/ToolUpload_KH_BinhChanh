@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -19,7 +20,26 @@ namespace TCProShirts
 {
     public static class ApplicationLibary
     {
+        public static string GetComputer_InternetIP()
+        {
+            // check IP using DynDNS's service
+            WebRequest request = WebRequest.Create("http://checkip.dyndns.org");
+            WebResponse response = request.GetResponse();
+            StreamReader stream = new StreamReader(response.GetResponseStream());
 
+            // IMPORTANT: set Proxy to null, to drastically INCREASE the speed of request
+            //request.Proxy = null;
+
+            // read complete response
+            string ipAddress = stream.ReadToEnd();
+
+            // replace everything and keep only IP
+            return ipAddress.
+                Replace("<html><head><title>Current IP Check</title></head><body>Current IP Address: ", string.Empty).
+                Replace("</body></html>", string.Empty).
+                Replace("\n", string.Empty).
+                Replace("\r", string.Empty);
+        }
         public static bool getActive()
         {
             return TCProShirts.Properties.Settings.Default.IsActive;

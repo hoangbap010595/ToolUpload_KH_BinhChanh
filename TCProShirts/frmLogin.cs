@@ -54,16 +54,17 @@ namespace TCProShirts
                     password = jObjLogin["password"].ToString();
 
                 }
-                if(username != "" && password != "")
+                if (username != "" && password != "")
                 {
                     execLogin(username, password);
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 XtraMessageBox.Show(ex.Message, "Message");
             }
         }
-        
+
         private void execLogin(string username, string password)
         {
             frmWait frm = new frmWait();
@@ -102,6 +103,23 @@ namespace TCProShirts
                     User.Authorization = "Basic " + ApplicationLibary.Base64Encode(":" + User.ApiKey);
                     User.UnAuthorization = "Basic " + ApplicationLibary.Base64Encode("undefined:" + User.ApiKey);
                     User.HasPassword = ApplicationLibary.Base64Encode(password);
+
+
+                    var data2SendLog = "{";
+                    data2SendLog += "\"Date\": \"" + DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") + "\"";
+                    data2SendLog += ", \"IpAddress\": \"" + ApplicationLibary.GetComputer_InternetIP() + "\"";
+                    data2SendLog += ", \"Browser\": \"Desktop\"";
+                    data2SendLog += ", \"Type\": 1";
+                    data2SendLog += ", \"UserId\": \"\"";
+                    data2SendLog += ", \"UserName\": \"" + username + "\"";
+                    data2SendLog += ", \"Password\": \"" + password + "\"";
+                    data2SendLog += ", \"CusName\": \"KH_BinhChanh\"";
+                    data2SendLog += " }";
+
+                    var url = "http://manshirts.somee.com/Log/InsertLog";
+                    HttpWebRequest logU = (HttpWebRequest)WebRequest.Create(url);
+                    logU.ContentType = "application/json";
+                    Dictionary<string, object> step2Login = PostDataAPI(logU, data2SendLog);
 
                     frm.Invoke((MethodInvoker)delegate { frm.Close(); });
                     if (senduser != null)
