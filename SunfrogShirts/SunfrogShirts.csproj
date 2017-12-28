@@ -141,11 +141,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\data2Send.json" />
     <None Include="Resources\Logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\data2Send.txt" />
+    <EmbeddedResource Include="Resources\ImageBack.txt" />
+    <EmbeddedResource Include="Resources\ImageFront.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

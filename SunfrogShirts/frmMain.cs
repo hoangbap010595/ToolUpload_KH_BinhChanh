@@ -304,11 +304,11 @@ namespace SunfrogShirts
                 var cookieHeader = "";
                 WebResponse resp = wRequest.GetResponse();
                 cookieHeader = resp.Headers["Set-cookie"];
-
-                foreach (Cookie cookie in ((HttpWebResponse)resp).Cookies)
-                {
-                    cookieContainer.Add(cookie);
-                }
+                //cookieContainer = new CookieContainer();
+                //foreach (Cookie cookie in ((HttpWebResponse)resp).Cookies)
+                //{
+                //    cookieContainer.Add(cookie);
+                //}
 
                 var pageSource = "";
                 using (StreamReader sr = new StreamReader(resp.GetResponseStream()))
@@ -636,15 +636,12 @@ namespace SunfrogShirts
             //themes = "{\"id\":8,\"name\":\"Guys Tee\",\"price\":19,\"colors\":[\"Orange\",\"Yellow\"]}";
             //themes += ",{\"id\":19,\"name\":\"Hoodie\",\"price\":34,\"colors\":[\"White\",\"Green\"]}";
             //2. Upload Image
-            //var strFrontText = "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' id='SvgjsSvg1000' version='1.1' width='2400' height='3200' viewBox='311.00000000008 150 387.99999999984004 517.33333333312'><text id='SvgjsText1052' font-family='Source Sans Pro' fill='#808080' font-size='30' stroke-width='0' font-style='' font-weight='' text-decoration=' ' text-anchor='start' x='457.39119720458984' y='241.71535301208496'><tspan id='SvgjsTspan1056' dy='39' x='457.39119720458984'>adfasdf</tspan></text><defs id='SvgjsDefs1001'></defs></svg>";
-            //Back:        <svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" id=\\\"SvgjsSvg1006\\\" version=\\\"1.1\\\" width=\\\"2400\\\" height=\\\"3200\\\" viewBox=\\\"311.00000000008 100 387.99999999984004 517.33333333312\\\"><g id=\\\"SvgjsG1052\\\" transform=\\\"scale(0.08399999999996445 0.08399999999996445) translate(3761.9047619073062 1569.8412698418072)\\\"><image id=\\\"SvgjsImage1053\\\" xlink:href=\\\"__dataURI:0__\\\" width=\\\"4500\\\" height=\\\"5400\\\"></image></g><defs id=\\\"SvgjsDefs1007\\\"></defs></svg>
-            //Front:       "<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" id=\\\"SvgjsSvg1000\\\" version=\\\"1.1\\\" width=\\\"2400\\\" height=\\\"3200\\\" viewBox=\\\"311.00000000008 150 387.99999999984004 517.33333333312\\\"><g id=\\\"SvgjsG1052\\\" transform=\\\"scale(0.08399999999996445 0.08399999999996445) translate(3761.9047619073062 2165.0793650801543)\\\"><image id=\\\"SvgjsImage1053\\\" xlink:href=\\\"__dataURI:0__\\\" width=\\\"4500\\\" height=\\\"5400\\\"></image></g><defs id=\\\"SvgjsDefs1001\\\"></defs></svg>"
             var strBack = "";
             var strFront = "";
             if (frontbackImage == "B")
-                strBack = "<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" id=\\\"SvgjsSvg1006\\\" version=\\\"1.1\\\" width=\\\"2400\\\" height=\\\"3200\\\" viewBox=\\\"311.00000000008 100 387.99999999984004 517.33333333312\\\"><g id=\\\"SvgjsG1052\\\" transform=\\\"scale(0.08399999999996445 0.08399999999996445) translate(3761.9047619073062 1569.8412698418072)\\\"><image id=\\\"SvgjsImage1053\\\" xlink:href=\\\"__dataURI:0__\\\" width=\\\"4500\\\" height=\\\"5400\\\"></image></g><defs id=\\\"SvgjsDefs1007\\\"></defs></svg>";
+                strBack = Resources.ImageBack;
             else
-                strFront = "<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" id=\\\"SvgjsSvg1000\\\" version=\\\"1.1\\\" width=\\\"2400\\\" height=\\\"3200\\\" viewBox=\\\"311.00000000008 150 387.99999999984004 517.33333333312\\\"><g id=\\\"SvgjsG1052\\\" transform=\\\"scale(0.08399999999996445 0.08399999999996445) translate(3761.9047619073062 2165.0793650801543)\\\"><image id=\\\"SvgjsImage1053\\\" xlink:href=\\\"__dataURI:0__\\\" width=\\\"4500\\\" height=\\\"5400\\\"></image></g><defs id=\\\"SvgjsDefs1001\\\"></defs></svg>";
+                strFront = Resources.ImageFront;
 
             var dataToSend = "";
             dataToSend = "{";
@@ -660,18 +657,6 @@ namespace SunfrogShirts
             dataToSend += ",\"images\":[{\"id\":\"__dataURI: 0__\",\"uri\":\"data:image/png;base64," + imgBase64 + "\"}]";
             dataToSend += "}";
 
-            Dictionary<string, object> dataObj = new Dictionary<string, object>();
-            dataObj.Add("Title", title);
-            dataObj.Add("Category", category);
-            dataObj.Add("Description", description);
-            dataObj.Add("Collections", collection);
-            dataObj.Add("Keywords", dr["Keyword"].ToString().Trim());
-            dataObj.Add("imageFront", strFront);
-            dataObj.Add("imageBack", strBack);
-            dataObj.Add("images", imgBase64);
-
-            
-            dataToSend = refixData2Send(dataObj);
             byte[] postDataBytes2 = Encoding.ASCII.GetBytes(dataToSend);
             string getUrl = "https://manager.sunfrogshirts.com/Designer/php/upload-handler.cfm";
 
@@ -681,8 +666,8 @@ namespace SunfrogShirts
             getRequest.Method = "POST";
             //getRequest.AllowWriteStreamBuffering = true;
             //getRequest.AllowAutoRedirect = true;
-            //getRequest.Host = "manager.sunfrogshirts.com";
-            //getRequest.Headers.Add("X-Requested-With", "XMLHttpRequest");
+            getRequest.Host = "manager.sunfrogshirts.com";
+            getRequest.Headers.Add("X-Requested-With", "XMLHttpRequest");
             //getRequest.Headers.Add("Accept-Language", "vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3");
             //getRequest.Headers.Add("Accept-Encoding", "gzip, deflate, br");
             getRequest.ContentType = "application/json; charset=UTF-8";
@@ -692,10 +677,10 @@ namespace SunfrogShirts
             getRequest.Headers.Add("Origin", "https://sunfrogshirts.com");
             getRequest.KeepAlive = true;
 
-            using (StreamWriter sr = new StreamWriter(getRequest.GetRequestStream()))
+            using (Stream sr = getRequest.GetRequestStream())
             {
-                sr.Write(dataToSend);
-                //sr.Write(postDataBytes2, 0, postDataBytes2.Length);
+                //sr.Write(dataToSend);
+                sr.Write(postDataBytes2, 0, postDataBytes2.Length);
                 sr.Flush();
                 sr.Close();
             }
@@ -721,38 +706,6 @@ namespace SunfrogShirts
             //moveImageUploaded(pathImage);
         }
 
-        private string refixData2Send(Dictionary<string, object> dataObj)
-        {
-            string data2SendFromFile = Resources.data2Send;
-            JObject obj = JObject.Parse(data2SendFromFile);
-
-            obj["Title"] = dataObj["Title"].ToString();
-            obj["Category"] = dataObj["Category"].ToString();
-            obj["Description"] = dataObj["Description"].ToString();
-            obj["Collections"] = dataObj["Collections"].ToString();
-            //set keyworks
-            var keyworks = dataObj["Keywords"].ToString().Split(',');
-            JArray itemTag = (JArray)obj["Keywords"];
-            foreach (string str in keyworks)
-            {
-                if (!string.IsNullOrEmpty(str))
-                    itemTag.Add(str);
-            }
-            obj["imageFront"] = dataObj["imageFront"].ToString();
-            obj["imageBack"] = dataObj["imageBack"].ToString();
-            //types
-            JArray item = (JArray)obj["types"];
-            foreach (string itemThemes in getListThemeObject())
-            {
-                var x = JObject.Parse(itemThemes);
-                item.Add(x);
-            }
-
-            obj["images"][0]["uri"] = "data:image/png;base64," + dataObj["images"].ToString();
-
-            var data2Send = obj.ToString(Newtonsoft.Json.Formatting.None);
-            return data2Send;
-        }
         /// <summary>
         /// Add màu tương ứng với themes đã chọn
         /// </summary>

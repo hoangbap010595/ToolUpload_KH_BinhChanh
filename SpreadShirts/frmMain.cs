@@ -287,9 +287,16 @@ namespace SpreadShirts
             {
                 try
                 {
+                    //Tiêu đề dùng chung
+                    string text_All = Path.GetFileName(fileImage).Split('.')[0].ToString();
+
+                    txtName.Invoke((MethodInvoker)delegate { txtName.Text = text_All; });
+                    memoDescription.Invoke((MethodInvoker)delegate { memoDescription.Text = text_All; });
+
+                    //cấu hình dữ liệu
                     string image = fileImage;
-                    string title = txtName.Text;
-                    string description = memoDescription.Text;
+                    string title = text_All;// txtName.Text;
+                    string description = text_All;// memoDescription.Text;
                     string tags = memoTag.Text;
                     string shop = getSelectShop();
                     double amount = double.Parse(double.Parse(txtPrice.Text).ToString("N2"));
@@ -583,6 +590,12 @@ namespace SpreadShirts
             }
 
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="wRequest"></param>
+        /// <param name="data2Send"></param>
+        /// <returns></returns>
         private Dictionary<string, object> GetDataAPI(HttpWebRequest wRequest, string data2Send = "")
         {
             wRequest.Method = "GET";
@@ -917,27 +930,21 @@ namespace SpreadShirts
             }
             else
             {
-                if (txtName.Text == "")
-                {
-                    XtraMessageBox.Show("Please enter field name!", "Message");
-                    enableB(true);
-                    return;
-                }
-                if (memoDescription.Text == "")
-                {
-                    XtraMessageBox.Show("Please enter field description!", "Message");
-                    enableB(true);
-                    return;
-                }
-                if (memoDescription.Text == "")
+                //if (txtName.Text == "")
+                //{
+                //    XtraMessageBox.Show("Please enter field name!", "Message");
+                //    enableB(true);
+                //    return;
+                //}
+                //if (memoDescription.Text == "")
+                //{
+                //    XtraMessageBox.Show("Please enter field description!", "Message");
+                //    enableB(true);
+                //    return;
+                //}
+                if (memoTag.Text == "")
                 {
                     XtraMessageBox.Show("Please enter field tag!", "Message");
-                    enableB(true);
-                    return;
-                }
-                if (double.Parse(txtPrice.Text) < 0 || double.Parse(txtPrice.Text) > 20)
-                {
-                    XtraMessageBox.Show("Choose a design price between $0.00 and $20.00", "Message");
                     enableB(true);
                     return;
                 }
@@ -951,6 +958,13 @@ namespace SpreadShirts
                         return;
                     }
                 }
+                if (double.Parse(txtPrice.Text) < 0 || double.Parse(txtPrice.Text) > 20)
+                {
+                    XtraMessageBox.Show("Choose a design price between $0.00 and $20.00", "Message");
+                    enableB(true);
+                    return;
+                }
+               
                 if(lsImageFileNames == null || lsImageFileNames.Count == 0)
                 {
                     XtraMessageBox.Show("Please choose image desgin!", "Message");
