@@ -289,7 +289,7 @@ namespace TCProShirts
             }
             else
             {
-                XtraMessageBox.Show("Thời gian dùng thử kết thúc Thursday, December 28, 2017 7:29:29 AM", "Thông báo");
+                XtraMessageBox.Show("Thời gian dùng thử kết thúc Saturday, 30 December năm 2017 09:53:47", "Thông báo");
             }
 
             //if (!ApplicationLibary.getActive())

@@ -573,7 +573,7 @@ namespace TCProShirts
                         uUrl = string.Format("{0}", imgDessign.Split('.')[0].Replace(" ", "").Trim());
                     else
                         uUrl = uUrl.Replace(" ", "").Trim();
-                    uUrl += DateTime.Now.ToString("mmss");
+                    uUrl += DateTime.Now.ToString("mmssfff");
                     //Step 4 -- Nhận giá trị 1 mảng _IDDesignRetail từ Step 3
                     var data2SendCampaigns = "{\"url\":\"" + uUrl + "\",\"title\":\"" + uTitle + "\",\"description\":\"" + uDescription + "\",\"duration\":24,\"policies\":{\"forever\":true,\"fulfillment\":24,\"private\":false,\"checkout\":\"direct\"},\"social\":{\"trackingTags\":{}},\"entityId\":\"" + User.EntityID + "\",\"upsells\":[],\"tags\":{\"style\":[" + uCategory + "]},\"related\": " + objIDReail + "}";
                     //data2SendCampaigns = data2SendCampaigns.Replace("\n", "<br />");
@@ -612,7 +612,7 @@ namespace TCProShirts
                             uUrl = string.Format("{0}", text_All.Replace(" ", "").Trim().Substring(0,16));
                     else
                         uUrl = uUrl.Replace(" ", "").Trim();
-                    uUrl += DateTime.Now.ToString("mmss");
+                    uUrl += DateTime.Now.ToString("mmssfff");
                     var urlUploadImage = "https://scalable-licensing.s3.amazonaws.com/";
 
                     if (!File.Exists(fileImage))

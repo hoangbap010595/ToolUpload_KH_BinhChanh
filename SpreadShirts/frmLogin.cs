@@ -193,7 +193,7 @@ namespace SpreadShirts
         {
             User = new ApplicationUser();
             Int64 currTime = (int)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-            Int64 dueTime = 1514446169000;
+            Int64 dueTime = 1514627627000;
             currTime = currTime * 1000;
             if (currTime > dueTime)
             {
@@ -204,7 +204,7 @@ namespace SpreadShirts
                 XtraMessageBox.Show("Thời gian dùng thử đã kết thúc", "Thông báo");
             }else
             {
-                XtraMessageBox.Show("Thời gian dùng thử kết thúc Thursday, December 28, 2017 7:29:29 AM", "Thông báo");
+                XtraMessageBox.Show("Thời gian dùng thử kết thúc Saturday, 30 December năm 2017 09:53:47", "Thông báo");
             }
         }
         private Dictionary<string, object> PostDataAPI(HttpWebRequest wRequest, string data2Send)
