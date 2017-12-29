@@ -639,9 +639,9 @@ namespace SunfrogShirts
             var strBack = "";
             var strFront = "";
             if (frontbackImage == "B")
-                strBack = Resources.ImageBack;
+                strBack = "";// Resources.ImageBack;
             else
-                strFront = Resources.ImageFront;
+                strFront = "";// Resources.ImageFront;
 
             var dataToSend = "";
             dataToSend = "{";

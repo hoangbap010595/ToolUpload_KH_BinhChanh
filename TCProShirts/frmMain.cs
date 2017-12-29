@@ -729,11 +729,6 @@ namespace TCProShirts
             wLines.ContentType = "application/json";
             wLines.PreAuthenticate = true;
             wLines.Headers.Add("Authorization", User.Authorization);
-            wLines.ServicePoint.Expect100Continue = false;
-            wLines.ProtocolVersion = HttpVersion.Version11;
-            wLines.Timeout = 90000;
-            wLines.ReadWriteTimeout = 90000;
-            wLines.KeepAlive = true;
 
             Dictionary<string, object> dataUploadLines = PostDataAPI(wLines, data2Send);
             var rsUploadLines = dataUploadLines["data"].ToString();
@@ -798,11 +793,6 @@ namespace TCProShirts
                     wRetail.ContentType = "application/json";
                     wRetail.PreAuthenticate = true;
                     wRetail.Headers.Add("Authorization", User.Authorization);
-                    wRetail.ServicePoint.Expect100Continue = false;
-                    wRetail.ProtocolVersion = HttpVersion.Version11;
-                    wRetail.Timeout = 90000;
-                    wRetail.ReadWriteTimeout = 90000;
-                    wRetail.KeepAlive = true;
 
                     Dictionary<string, object> dataUploadRetail = PostDataAPI(wRetail, item);
                     var rsUploadRetail = dataUploadRetail["data"].ToString();
@@ -837,11 +827,6 @@ namespace TCProShirts
             wCampaigns.ContentType = "application/json";
             wCampaigns.PreAuthenticate = true;
             wCampaigns.Headers.Add("Authorization", User.Authorization);
-            wCampaigns.ServicePoint.Expect100Continue = false;
-            wCampaigns.ProtocolVersion = HttpVersion.Version11;
-            wCampaigns.Timeout = 90000;
-            wCampaigns.ReadWriteTimeout = 90000;
-            wCampaigns.KeepAlive = true;
 
             Dictionary<string, object> dataUploadCampaigns = PostDataAPI(wCampaigns, data2SendCampaigns);
             var rsUploadCampaigns = dataUploadCampaigns["data"].ToString();
@@ -879,6 +864,10 @@ namespace TCProShirts
                 wr.Headers.Add("Accept-Language", "vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3");
                 wr.Headers.Add("Accept-Encoding", "gzip, deflate, br");
                 wr.KeepAlive = true;
+                wr.ServicePoint.Expect100Continue = false;
+                wr.ProtocolVersion = HttpVersion.Version11;
+                wr.Timeout = 90000;
+                wr.ReadWriteTimeout = 90000;
 
                 Stream rs = wr.GetRequestStream();
 
@@ -945,7 +934,11 @@ namespace TCProShirts
                 wRequest.Method = "POST";
                 wRequest.UserAgent = BROWSER_FIREFOX;
                 wRequest.ContentLength = postDataBytes.Length;
-
+                wRequest.ServicePoint.Expect100Continue = false;
+                wRequest.ProtocolVersion = HttpVersion.Version11;
+                wRequest.Timeout = 90000;
+                wRequest.ReadWriteTimeout = 90000;
+                wRequest.KeepAlive = true;
                 using (Stream sr = wRequest.GetRequestStream())
                 {
                     sr.Write(postDataBytes, 0, postDataBytes.Length);
@@ -987,6 +980,11 @@ namespace TCProShirts
                 ASCIIEncoding encoding = new ASCIIEncoding();
                 byte[] postDataBytes = encoding.GetBytes(data2Send);
                 wRequest.ContentLength = postDataBytes.Length;
+                wRequest.ServicePoint.Expect100Continue = false;
+                wRequest.ProtocolVersion = HttpVersion.Version11;
+                wRequest.Timeout = 90000;
+                wRequest.ReadWriteTimeout = 90000;
+                wRequest.KeepAlive = true;
 
                 using (Stream sr = wRequest.GetRequestStream())
                 {

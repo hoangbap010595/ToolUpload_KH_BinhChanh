@@ -61,24 +61,6 @@ namespace SunfrogShirts.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; id=&quot;SvgjsSvg1006&quot; version=&quot;1.1&quot; width=&quot;2400&quot; height=&quot;3200&quot; viewBox=&quot;311.00000000008 100 387.99999999984004 517.33333333312&quot;&gt;&lt;g id=&quot;SvgjsG1054&quot; transform=&quot;scale(0.08399999999996445 0.08399999999996445) translate(3761.9047619073062 1569.8412698418072)&quot;&gt;&lt;image id=&quot;SvgjsImage1055&quot; xlink:href=&quot;__dataURI:1__&quot; width=&quot;4500&quot; height=&quot;5400&quot;&gt;&lt;/image&gt;&lt;/g&gt;&lt;defs id=&quot;SvgjsDefs1007&quot;&gt;&lt;/defs&gt;&lt;/svg&gt;.
-        /// </summary>
-        internal static string ImageBack {
-            get {
-                return ResourceManager.GetString("ImageBack", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; id=&quot;SvgjsSvg1000&quot; version=&quot;1.1&quot; width=&quot;2400&quot; height=&quot;3200&quot; viewBox=&quot;311.00000000008 150 387.99999999984004 517.33333333312&quot;&gt;&lt;g id=&quot;SvgjsG1052&quot; transform=&quot;scale(0.08399999999996445 0.08399999999996445) translate(3761.9047619073062 2165.0793650801543)&quot;&gt;&lt;image id=&quot;SvgjsImage1053&quot; xlink:href=&quot;__dataURI:0__&quot; width=&quot;4500&quot; height=&quot;5400&quot;&gt;&lt;/image&gt;&lt;/g&gt;&lt;defs id=&quot;SvgjsDefs1001&quot;&gt;&lt;/defs&gt;&lt;/svg&gt;.
-        /// </summary>
-        internal static string ImageFront {
-            get {
-                return ResourceManager.GetString("ImageFront", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Logo {
