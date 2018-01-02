@@ -480,6 +480,8 @@ namespace SpreadShirts
                 wresp = wr.GetResponse();
                 Stream stream2 = wresp.GetResponseStream();
                 StreamReader reader2 = new StreamReader(stream2);
+
+                wresp.Close();
                 data.Add("location", wresp.Headers["Location"]);
                 data.Add("data", reader2.ReadToEnd());
                 data.Add("status", 1);
@@ -531,8 +533,8 @@ namespace SpreadShirts
                     {
                         htmlString = reader.ReadToEnd();
                     }
+                    wResponse.Close();
                 }
-
                 dataReturn.Add("cookies", cookies);
                 dataReturn.Add("data", htmlString);
                 dataReturn.Add("status", 1);

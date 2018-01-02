@@ -595,7 +595,7 @@ namespace TCProShirts
                 try
                 {
                     //Tiêu đề dùng chung
-                    string text_All = Path.GetFileName(fileImage).Split('.')[0].ToString();
+                    string text_All = Path.GetFileName(fileImage).Split('.')[0].ToString().Replace(")","").Replace("(", "").Replace("-", " ");
                     txtTitle.Invoke((MethodInvoker)delegate { txtTitle.Text = text_All; });
                     memoDescription.Invoke((MethodInvoker)delegate { memoDescription.Text = text_All; });
 
@@ -866,8 +866,8 @@ namespace TCProShirts
                 wr.KeepAlive = true;
                 wr.ServicePoint.Expect100Continue = false;
                 wr.ProtocolVersion = HttpVersion.Version11;
-                wr.Timeout = 90000;
-                wr.ReadWriteTimeout = 90000;
+                wr.Timeout = 600000;
+                wr.ReadWriteTimeout = 600000;
 
                 Stream rs = wr.GetRequestStream();
 
@@ -903,6 +903,9 @@ namespace TCProShirts
                 wresp = wr.GetResponse();
                 Stream stream2 = wresp.GetResponseStream();
                 StreamReader reader2 = new StreamReader(stream2);
+
+                wresp.Close();
+
                 data.Add("data", wresp.Headers["Location"]);
                 data.Add("status", 1);
             }
@@ -936,8 +939,8 @@ namespace TCProShirts
                 wRequest.ContentLength = postDataBytes.Length;
                 wRequest.ServicePoint.Expect100Continue = false;
                 wRequest.ProtocolVersion = HttpVersion.Version11;
-                wRequest.Timeout = 90000;
-                wRequest.ReadWriteTimeout = 90000;
+                wRequest.Timeout = 600000;
+                wRequest.ReadWriteTimeout = 600000;
                 wRequest.KeepAlive = true;
                 using (Stream sr = wRequest.GetRequestStream())
                 {
@@ -957,6 +960,8 @@ namespace TCProShirts
                 {
                     htmlString = reader.ReadToEnd();
                 }
+                wResponse.Close();
+
                 dataReturn.Add("cookies", cookies);
                 dataReturn.Add("data", htmlString);
                 dataReturn.Add("status", 1);
@@ -982,8 +987,8 @@ namespace TCProShirts
                 wRequest.ContentLength = postDataBytes.Length;
                 wRequest.ServicePoint.Expect100Continue = false;
                 wRequest.ProtocolVersion = HttpVersion.Version11;
-                wRequest.Timeout = 90000;
-                wRequest.ReadWriteTimeout = 90000;
+                wRequest.Timeout = 600000;
+                wRequest.ReadWriteTimeout = 600000;
                 wRequest.KeepAlive = true;
 
                 using (Stream sr = wRequest.GetRequestStream())
@@ -1006,7 +1011,7 @@ namespace TCProShirts
             {
                 htmlString = reader.ReadToEnd();
             }
-
+            wResponse.Close();
             Dictionary<string, object> dataReturn = new Dictionary<string, object>();
             dataReturn.Add("cookies", cookies);
             dataReturn.Add("data", htmlString);
