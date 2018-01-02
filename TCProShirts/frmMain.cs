@@ -904,10 +904,10 @@ namespace TCProShirts
                 Stream stream2 = wresp.GetResponseStream();
                 StreamReader reader2 = new StreamReader(stream2);
 
-                wresp.Close();
-
                 data.Add("data", wresp.Headers["Location"]);
                 data.Add("status", 1);
+
+                wresp.Close();
             }
             catch (Exception ex)
             {
@@ -1011,11 +1011,11 @@ namespace TCProShirts
             {
                 htmlString = reader.ReadToEnd();
             }
-            wResponse.Close();
+            
             Dictionary<string, object> dataReturn = new Dictionary<string, object>();
             dataReturn.Add("cookies", cookies);
             dataReturn.Add("data", htmlString);
-
+            wResponse.Close();
             return dataReturn;
         }
         private void loadImage(string url)
